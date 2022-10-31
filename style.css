@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+body{
+    background-color:#A0D7FF ;
+}
+
+article{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.box{
+    background-image: linear-gradient(to bottom right,#17181A,#19191d);
+    border-radius: 20px;
+    height: 600px;
+    width: 330px;
+    position:absolute;
+    left: 50%;
+    margin-left: -165px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.entrance-animation {
+    -webkit-animation: entrance-animation 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      both;
+    animation: entrance-animation 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  
+  @-webkit-keyframes entrance-animation {
+    0% {
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  @keyframes entrance-animation {
+    0% {
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+.calcScreen{
+    text-align: end;
+    margin-top: 100px;
+    height: 100px;
+    max-width: 300px;
+    
+}
+.theOperation{
+    color: #818181;
+    margin-right:15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.answer{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.firstSec{
+    display: flex;
+    margin-left: 15px;
+}
+#eBox,#mBox,#sinBox,#degBox{
+    border: none;
+    cursor: pointer;
+    background-color: #303136;
+    width: 50px;
+    height: 30px;
+    border-radius: 24px;
+    margin-left: 20px;
+}
+.e,.m,.sin,.deg{
+    color: #29A8FF;
+    margin: 0px;
+    font-family:'Red Hat Display', sans-serif ;
+}
+.removeBtn{
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+
+}
+.secondSec,.thirdSec,.fourthSec{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+#acBox{
+    background-color: #616161;
+}
+#divBox,#multiBox{
+    background-color:#005DB2;
+}
+#acBox,#divBox,#multiBox{
+    border: none;
+    border-radius:12px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    cursor:pointer;
+    font-family:'Red Hat Display', sans-serif ;
+}
+
+.multi{
+    margin-top: 14px;
+    color: #339DFF;
+
+}
+.div{
+    margin-top: 10px;
+    color: #339DFF;
+}
+.ac{
+    font-size: 23px;
+    margin: 0px;
+    color: #A5A5A5;
+}
+#removeBox{
+    background:url(images/Screenshot\ \(563\).png );
+    background-position: center;
+    cursor:pointer;
+    border:none;
+    width:50px;
+    height:50px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    margin-left: 20px;
+    
+    
+}
+
+#numbersBox,#minusBox,#dotBox{
+    
+    border: none;
+    border-radius:12px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    cursor:pointer;
+    font-family:'Red Hat Display', sans-serif ;
+    background-color: #303136;
+}
+#dotBox{
+    margin-left: 40px;
+}
+#minusBox{
+    background-color: #005DB2;
+}
+.numbers,.dot,.zero{
+    margin-top: 6px;
+    color: #339DFF;
+}
+.minus{
+    margin-top: 5px;
+    color: #339DFF;
+}
+#sumBox{
+    border: none;
+    border-radius:12px;
+    width: 50px;
+    height: 95px;
+    margin-left: 20px;
+    margin-top: -1px;
+    cursor:pointer;
+    font-family:'Red Hat Display', sans-serif ;
+    background-color: #005DB2
+}
+.sum{
+    color: #339DFF;
+}
+.fifthSec{
+    display: flex;
+    margin-top: -27px; 
+    margin-left: 15px; 
+}
+.sixthSec{
+    margin-top: -50px;
+    display: flex;
+    margin-left: 15px; 
+}
+#equalBox{
+    border: none;
+    border-radius:12px;
+    width: 50px;
+    height: 95px;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor:pointer;
+    font-family:'Red Hat Display', sans-serif ;
+    background-color: #1991FF;
+}
+.equal{
+    color: #B2DAFF;
+}
+#zeroBox{
+    border: none;
+    border-radius:12px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    cursor:pointer;
+    font-family:'Red Hat Display', sans-serif ;
+    background-color: #303136;
+}
